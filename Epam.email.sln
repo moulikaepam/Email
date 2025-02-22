@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.email", "Epam.email\Epam.email.csproj", "{C55C4286-CE44-4B84-867A-084DCB285862}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Email.Domain", "Epam.Email.Domain\Epam.Email.Domain.csproj", "{DAE4AD06-CC64-47E6-8CF6-59D508464159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Email.Application", "Epam.Email.Application\Epam.Email.Application.csproj", "{689DCDA8-7839-48AA-8100-632C8140BFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Email.Infrastructure", "Epam.Email.Infrastructure\Epam.Email.Infrastructure.csproj", "{765AEE06-FDCB-44FC-B48D-D41590367E8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C55C4286-CE44-4B84-867A-084DCB285862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55C4286-CE44-4B84-867A-084DCB285862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55C4286-CE44-4B84-867A-084DCB285862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55C4286-CE44-4B84-867A-084DCB285862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE4AD06-CC64-47E6-8CF6-59D508464159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE4AD06-CC64-47E6-8CF6-59D508464159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE4AD06-CC64-47E6-8CF6-59D508464159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE4AD06-CC64-47E6-8CF6-59D508464159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689DCDA8-7839-48AA-8100-632C8140BFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689DCDA8-7839-48AA-8100-632C8140BFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689DCDA8-7839-48AA-8100-632C8140BFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689DCDA8-7839-48AA-8100-632C8140BFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765AEE06-FDCB-44FC-B48D-D41590367E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765AEE06-FDCB-44FC-B48D-D41590367E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765AEE06-FDCB-44FC-B48D-D41590367E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765AEE06-FDCB-44FC-B48D-D41590367E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB30CA34-1026-4717-9C06-E59C2D986567}
+	EndGlobalSection
+EndGlobal

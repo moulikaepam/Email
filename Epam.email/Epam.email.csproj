@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreKit.Connectivity.SMTP" Version="2.0.4" />
+    <PackageReference Include="MailKit" Version="4.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Epam.Email.Application\Epam.Email.Application.csproj" />
+    <ProjectReference Include="..\Epam.Email.Infrastructure\Epam.Email.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
